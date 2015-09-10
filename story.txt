@@ -1,0 +1,15 @@
+This is story for delivering file updates, without reflashing whole image.
+
+Prepare file update (manualy or automatic).
+Prepare automatic update generator?
+
+1. start. 
+2. poll for new block devices
+3. when block device added get its mount path
+4. check if file update present
+ a) in update folder in usb flash drive root
+  there are folder 1 2 3 etc.
+  on the target there are file /etc/miniswdl.info indicating last installed update.
+  Than create list of nneded updates. and update incrementaly one by one.
+
+  also before update popup should be shown
